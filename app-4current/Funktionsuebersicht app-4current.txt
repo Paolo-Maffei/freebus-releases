@@ -1,0 +1,48 @@
+Funktionen 4-fach Stromsensor
+
+basiert auf Gira 0960 00 Analogeingang
+
+
+Allgemein:
+Auslesen aller Objektzustände				ja
+
+
+Sendeformat der Messwerte:
+16Bit 							ja
+8Bit  							ja
+Basis und Faktor des Eingangssignals einstellbar	ja
+
+Verhalten nach Busspannungswiederkehr:
+Messwerte senden
+ - verzögert						ja
+   + Sendeverzögerung einstellbar			ja
+ - sofort						ja
+ - keine Funktion					ja
+Grenzwerte senden
+ - sofort						ja
+ - keine Funktion					ja
+
+
+Messwerte:
+ - zyklisch senden					ja
+ - senden bei Messwertdifferenz				ja
+   + Sendeverzögerung einstellbar			ja
+   + Messwertdifferenz einstellbar			ja
+
+
+Grenzwerte:
+ - zyklisch Senden					ja	
+Grenzwerte 1 und 2 einstellbar				ja
+Verhalten bei Über/Unterschreiten GW1
+ - Ein							ja
+ - Aus							ja
+ - keine Funktion					ja
+Verhalten bei Über/Unterschreiten GW2
+ - Ein							ja
+ - Aus							ja
+ - keine Funktion					ja
+					
+
+Hinweis:
+0-1V, 0-5V, 0-10V, 0-20mA, 4-20mA - Einstellung beliebig, Kanal aktiv
+keine Funktion - Kanal inaktiv
