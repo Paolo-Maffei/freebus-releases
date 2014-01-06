@@ -43,6 +43,15 @@ Verhalten bei Über/Unterschreiten GW2
  - keine Funktion					ja
 					
 
-Hinweis:
-0-1V, 0-5V, 0-10V, 0-20mA, 4-20mA - Einstellung beliebig, Kanal aktiv
-keine Funktion - Kanal inaktiv
+Parametrierung Signal Eingang x:
+keine Funktion		-	Kanal inaktiv, ein Signal für die 3-Phasen Messung wird jedoch erfasst
+
+0-1V, 0-5V, 0-10V	-	Einstellung beliebig, Kanal aktiv
+
+0-20mA				-	Messwert des nächsthöheren Kanals wird übernommen (bei Kanal4 entspr. Kanal1)
+						Der am Eingang anliegende Messwert wird ignoriert.
+						Diese Funktion kann z.B. beim 2-Kanal Sensor dazu verwendet werden um auf den ungenutzten
+						Kanälen zusätzliche Schaltschwellen einzurichten.
+
+4-20mA				-	Summe der Kanäle 2-4, speziell zur 3-Phasen Strommessung in einem Drehstromnetz						
+						Außenleiter L1-L3 an die Sensoren 2-4 anschließen
