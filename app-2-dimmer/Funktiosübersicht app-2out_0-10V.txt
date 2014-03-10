@@ -1,0 +1,32 @@
+Stand 10.03.2014
+
+Firmware zum Aufbau eines 2-Kanal Analogausgangs 0-10V; 1-10V
+zusammen mit der HW-Applikationsplatine  2out_0-10V_2te
+ETS-Applikation: GIRA 2 Kanal Dimmaktor 1032 00
+
+			
+Funktionen:
+-Empfang & Rückmeldung Ein/Aus Objekt
+-Empfang & Rückmeldung Helligkeitsobjekt
+-Empfang Dimmen 1,5% - 100% auf- abwärts, Dimmen Stopp
+-Sperrobjekt
+
+Parameter:
+-Helligkeit bei Busspannungswiederkehr
+-Helligkeit beim Einschalten
+-Soft Ein
+-Soft Aus
+-Helligkeitswert andimmen/anspringen
+-Dimmgeschwindigkeit
+-Ausschaltfunktion / Zeitverzögerung
+-Sperrobjekt normal/invertiert
+-Verhalten am Beginn - Ende einer Sperrung
+-Grundhelligkeit:       Stufe      Ausgangsspannung bei Dimmwert 1%
+                          1        0,1V
+                          2        0,5V 
+						  3        0,9V
+						  4        1,0V
+						  5        1,1V 
+						  6        1,2V 
+						  7        1,3V						  
+						  8        1,4V
